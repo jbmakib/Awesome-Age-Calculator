@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-white fw-bolder bg-info py-3" style="font-size: 30px;">Awesome Age Calculator</h1>
+        <div class="row">
+            <div class="col-lg-3 col-md-2 col-sm-1"></div>
+            <div class="col-lg-6 col-md-8 col-sm-10">
+                <form action="" name="form">
+                    <div class="card">
+                        <span class="text-center my-1">Input your Birthday here</span>
+                        <input type="date" class="card-body mx-2" name="ager_age" id="ager_age">
+                        <span class="text-center my-1">Input a date you want to Calculate</span>
+                        <input type="date" class="card-body mx-2" name="ekhon_age" id="ekhon_age">
+                        <button type="button" class="card-body m-2 btn btn-outline-info fs-4" onclick="main_cal()">Calculate My Age</button>
+                        <div class="text-center bg-info text-dark fw-bolder p-2 mx-2 mb-2" id="result" name="result">The result will display here.</div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3 col-md-2 col-sm-1"></div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!-- <form action="" name="form">
+    <div class="ok border">
+        <input type="date" name="ager_age" id="ager_age">
+        <hr>
+        <input type="date" name="ekhon_age" id="ekhon_age">
+        <hr>
+        <button type="button" class="ans" value="Calculate My Age" onclick="main_cal()">Calculate My Age</button>
+        <hr>
+        <div class="text-center bg-khela text-white" id="result" name="result">Result Will Display Here</div>
+    </div>
+</form> -->
